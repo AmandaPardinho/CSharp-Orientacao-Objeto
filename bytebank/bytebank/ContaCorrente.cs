@@ -13,10 +13,39 @@ namespace bytebank
         public string titular;
         public double saldo;
 
-        //Definindo um método
+        //Método depositar
         public void Depositar(double valor)
         {
             this.saldo += valor;
+        }
+
+        //Método sacar
+        public bool Sacar(double valor)
+        {
+            if(valor <= this.saldo)
+            {
+                this.saldo -= valor;
+                return true;
+            }
+            else
+            {
+                return false;
+            }            
+        }
+        
+        //Método transferir
+        public bool Transferir(double valor, ContaCorrente destino)
+        {
+            if (this.saldo < valor)
+            {
+                return false;
+            }
+            else
+            {
+                this.Sacar(valor);
+                destino.Depositar(valor);
+                return true;
+            }
         }
     }
 }
