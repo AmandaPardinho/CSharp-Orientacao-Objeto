@@ -1,0 +1,15 @@
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp-Orientacao-Objeto\bytebank\Desafio2SistemaMedico\bin\Debug\net6.0\Desafio2SistemaMedico.exe
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp-Orientacao-Objeto\bytebank\Desafio2SistemaMedico\bin\Debug\net6.0\Desafio2SistemaMedico.deps.json
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp-Orientacao-Objeto\bytebank\Desafio2SistemaMedico\bin\Debug\net6.0\Desafio2SistemaMedico.runtimeconfig.json
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp-Orientacao-Objeto\bytebank\Desafio2SistemaMedico\bin\Debug\net6.0\Desafio2SistemaMedico.dll
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp-Orientacao-Objeto\bytebank\Desafio2SistemaMedico\bin\Debug\net6.0\Desafio2SistemaMedico.pdb
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp-Orientacao-Objeto\bytebank\Desafio2SistemaMedico\obj\Debug\net6.0\Desafio2SistemaMedico.csproj.AssemblyReference.cache
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp-Orientacao-Objeto\bytebank\Desafio2SistemaMedico\obj\Debug\net6.0\Desafio2SistemaMedico.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp-Orientacao-Objeto\bytebank\Desafio2SistemaMedico\obj\Debug\net6.0\Desafio2SistemaMedico.AssemblyInfoInputs.cache
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp-Orientacao-Objeto\bytebank\Desafio2SistemaMedico\obj\Debug\net6.0\Desafio2SistemaMedico.AssemblyInfo.cs
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp-Orientacao-Objeto\bytebank\Desafio2SistemaMedico\obj\Debug\net6.0\Desafio2SistemaMedico.csproj.CoreCompileInputs.cache
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp-Orientacao-Objeto\bytebank\Desafio2SistemaMedico\obj\Debug\net6.0\Desafio2SistemaMedico.dll
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp-Orientacao-Objeto\bytebank\Desafio2SistemaMedico\obj\Debug\net6.0\refint\Desafio2SistemaMedico.dll
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp-Orientacao-Objeto\bytebank\Desafio2SistemaMedico\obj\Debug\net6.0\Desafio2SistemaMedico.pdb
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp-Orientacao-Objeto\bytebank\Desafio2SistemaMedico\obj\Debug\net6.0\Desafio2SistemaMedico.genruntimeconfig.cache
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp-Orientacao-Objeto\bytebank\Desafio2SistemaMedico\obj\Debug\net6.0\ref\Desafio2SistemaMedico.dll
