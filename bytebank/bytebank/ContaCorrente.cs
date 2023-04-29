@@ -8,10 +8,14 @@ namespace bytebank
 {
     public class ContaCorrente
     {
+        //Cada um dos campos recebe um valor inicial padrão
+        //É possível alterar esse valor padrão do campo aqui mesmo na criação da classe => basta atribuir (=) um valor de acordo com o seu tipo
+
         public int numeroAgencia;
         public string conta;
         public string titular;
-        public double saldo;
+        //public double saldo;
+        public double saldo = 100;
 
         //Método depositar
         public void Depositar(double valor)
