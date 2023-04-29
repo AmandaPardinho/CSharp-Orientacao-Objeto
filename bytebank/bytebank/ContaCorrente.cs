@@ -14,8 +14,8 @@ namespace bytebank
         public int numeroAgencia;
         public string conta;
         public string titular;
-        //public double saldo;
-        public double saldo = 100;
+        public double saldo;
+        //public double saldo = 100;
 
         //Método depositar
         public void Depositar(double valor)
@@ -50,6 +50,12 @@ namespace bytebank
                 destino.Depositar(valor);
                 return true;
             }
+        }
+
+        //Exibir informações da conta
+        public string ExibirInfos()
+        {
+            return $"Titular: {titular}\nNúmero da agência: {numeroAgencia}\nNúmero da conta: {conta}\nSaldo: R$ {String.Format("{0:0.00}", saldo)}";
         }
     }
 }
