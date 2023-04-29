@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Desafio1Supermercado", "Des
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafio2SistemaMedico", "Desafio2SistemaMedico\Desafio2SistemaMedico.csproj", "{245EBD7C-6169-477F-AE93-C6649EB819C5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "desafios", "desafios", "{A2AB187F-B320-485C-8A0A-15BA67659D75}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,6 +32,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5B494009-0C81-48EC-940F-FAE2A8B08D35} = {A2AB187F-B320-485C-8A0A-15BA67659D75}
+		{245EBD7C-6169-477F-AE93-C6649EB819C5} = {A2AB187F-B320-485C-8A0A-15BA67659D75}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E4C134E9-2428-4B9D-A51E-7D2A5FD6F288}
