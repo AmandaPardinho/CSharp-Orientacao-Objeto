@@ -13,7 +13,7 @@ namespace bytebank
 
         public int numeroAgencia;
         public string conta;
-        public string titular;
+        public Cliente titular;
         public double saldo;
         //public double saldo = 100;
 
@@ -55,7 +55,7 @@ namespace bytebank
         //Exibir informações da conta
         public string ExibirInfos()
         {
-            return $"Titular: {titular}\nNúmero da agência: {numeroAgencia}\nNúmero da conta: {conta}\nSaldo: R$ {String.Format("{0:0.00}", saldo)}";
+            return $"Titular: {titular.nome}\nCPF: {titular.cpf}\nProfissão: {titular.profissao}\nNúmero da agência: {numeroAgencia}\nNúmero da conta: {conta}\nSaldo: R$ {String.Format("{0:0.00}", saldo)}";
         }
     }
 }
