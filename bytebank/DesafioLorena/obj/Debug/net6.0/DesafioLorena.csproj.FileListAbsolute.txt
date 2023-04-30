@@ -1,0 +1,15 @@
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp-Orientacao-Objeto\bytebank\DesafioLorena\bin\Debug\net6.0\DesafioLorena.exe
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp-Orientacao-Objeto\bytebank\DesafioLorena\bin\Debug\net6.0\DesafioLorena.deps.json
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp-Orientacao-Objeto\bytebank\DesafioLorena\bin\Debug\net6.0\DesafioLorena.runtimeconfig.json
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp-Orientacao-Objeto\bytebank\DesafioLorena\bin\Debug\net6.0\DesafioLorena.dll
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp-Orientacao-Objeto\bytebank\DesafioLorena\bin\Debug\net6.0\DesafioLorena.pdb
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp-Orientacao-Objeto\bytebank\DesafioLorena\obj\Debug\net6.0\DesafioLorena.csproj.AssemblyReference.cache
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp-Orientacao-Objeto\bytebank\DesafioLorena\obj\Debug\net6.0\DesafioLorena.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp-Orientacao-Objeto\bytebank\DesafioLorena\obj\Debug\net6.0\DesafioLorena.AssemblyInfoInputs.cache
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp-Orientacao-Objeto\bytebank\DesafioLorena\obj\Debug\net6.0\DesafioLorena.AssemblyInfo.cs
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp-Orientacao-Objeto\bytebank\DesafioLorena\obj\Debug\net6.0\DesafioLorena.csproj.CoreCompileInputs.cache
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp-Orientacao-Objeto\bytebank\DesafioLorena\obj\Debug\net6.0\DesafioLorena.dll
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp-Orientacao-Objeto\bytebank\DesafioLorena\obj\Debug\net6.0\refint\DesafioLorena.dll
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp-Orientacao-Objeto\bytebank\DesafioLorena\obj\Debug\net6.0\DesafioLorena.pdb
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp-Orientacao-Objeto\bytebank\DesafioLorena\obj\Debug\net6.0\DesafioLorena.genruntimeconfig.cache
+C:\Users\AmandaMarquesPardinh\Desktop\Performa\repositorios\CSharp-Orientacao-Objeto\bytebank\DesafioLorena\obj\Debug\net6.0\ref\DesafioLorena.dll
