@@ -1,4 +1,5 @@
-﻿using bytebank;
+﻿using bytebank.Contas;
+using bytebank.Titular;
 
 ////Teste criação da conta 1
 //ContaCorrente contaAndre = new ContaCorrente();
@@ -69,7 +70,7 @@
 //Console.WriteLine(contaMaria.ExibirInfos());
 /////////////////////////////////////////////////////////////
 
-//
+//Chamando a classe Cliente e a classe ContaCorrente
 Cliente cliente = new Cliente();
 cliente.nome = "André Silva";
 cliente.cpf = "12345678900";
@@ -87,5 +88,18 @@ Console.WriteLine();
 Console.WriteLine($"Nome: {conta.titular.nome}");
 Console.WriteLine($"CPF: {conta.titular.cpf}");
 Console.WriteLine($"Profissão: {conta.titular.profissao}");
+//*********************\\
+
+ContaCorrente conta2 = new ContaCorrente();
+conta2.titular = new Cliente();
+conta2.titular.nome = "José Souza";
+conta2.titular.profissao = "Tester";
+conta2.titular.cpf = "999888777-66";
+conta2.conta = "9999-X";
+conta2.numeroAgencia = 18;
+conta2.saldo = 500;
+
+Console.WriteLine();
+Console.WriteLine(conta2.ExibirInfos());
 
 Console.ReadKey();
