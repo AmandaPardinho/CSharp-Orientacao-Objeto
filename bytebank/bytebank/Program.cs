@@ -31,11 +31,11 @@
 //}
 
 //Teste criação conta 2
-ContaCorrente contaMaria = new ContaCorrente();
-contaMaria.titular = "Maria Souza";
-contaMaria.numeroAgencia = 17;
-contaMaria.conta = "1010-5";
-contaMaria.saldo = 350.0;
+//ContaCorrente contaMaria = new ContaCorrente();
+//contaMaria.titular = "Maria Souza";
+//contaMaria.numeroAgencia = 17;
+//contaMaria.conta = "1010-5";
+//contaMaria.saldo = 350.0;
 
 //Console.WriteLine($"Saldo da conta da Maria = R$ {String.Format("{0:0.00}", contaMaria.saldo)}");
 
@@ -66,6 +66,26 @@ contaMaria.saldo = 350.0;
 // *cada objeto tem um endereçamento único na memória e, por isso, ao compará-los para ver se são iguais, o resultado será FALSE;
 // */
 
-Console.WriteLine(contaMaria.ExibirInfos());
+//Console.WriteLine(contaMaria.ExibirInfos());
+/////////////////////////////////////////////////////////////
+
+//
+Cliente cliente = new Cliente();
+cliente.nome = "André Silva";
+cliente.cpf = "12345678900";
+cliente.profissao = "Analista";
+
+ContaCorrente conta = new ContaCorrente();
+conta.titular = cliente;
+conta.conta = "1010-X";
+conta.numeroAgencia = 15;
+conta.saldo = 100.0;
+
+Console.WriteLine(conta.ExibirInfos());
+//ou
+Console.WriteLine();
+Console.WriteLine($"Nome: {conta.titular.nome}");
+Console.WriteLine($"CPF: {conta.titular.cpf}");
+Console.WriteLine($"Profissão: {conta.titular.profissao}");
 
 Console.ReadKey();
