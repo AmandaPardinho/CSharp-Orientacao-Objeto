@@ -7,9 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "bytebank", "bytebank\byteba
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Desafio1Supermercado", "Desafio1Supermercado\Desafio1Supermercado.csproj", "{5B494009-0C81-48EC-940F-FAE2A8B08D35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Desafio2SistemaMedico", "Desafio2SistemaMedico\Desafio2SistemaMedico.csproj", "{245EBD7C-6169-477F-AE93-C6649EB819C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Desafio2SistemaMedico", "Desafio2SistemaMedico\Desafio2SistemaMedico.csproj", "{245EBD7C-6169-477F-AE93-C6649EB819C5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "desafios", "desafios", "{A2AB187F-B320-485C-8A0A-15BA67659D75}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Compras", "Compras", "{4D7FB963-000A-46DC-88B5-155B63E17624}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "desafiolorena", "DesafioLorena\desafiolorena.csproj", "{36949D0C-A0F7-4638-8DC8-C618202A8800}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +33,10 @@ Global
 		{245EBD7C-6169-477F-AE93-C6649EB819C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{245EBD7C-6169-477F-AE93-C6649EB819C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{245EBD7C-6169-477F-AE93-C6649EB819C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36949D0C-A0F7-4638-8DC8-C618202A8800}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36949D0C-A0F7-4638-8DC8-C618202A8800}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36949D0C-A0F7-4638-8DC8-C618202A8800}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36949D0C-A0F7-4638-8DC8-C618202A8800}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +44,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{5B494009-0C81-48EC-940F-FAE2A8B08D35} = {A2AB187F-B320-485C-8A0A-15BA67659D75}
 		{245EBD7C-6169-477F-AE93-C6649EB819C5} = {A2AB187F-B320-485C-8A0A-15BA67659D75}
+		{4D7FB963-000A-46DC-88B5-155B63E17624} = {A2AB187F-B320-485C-8A0A-15BA67659D75}
+		{36949D0C-A0F7-4638-8DC8-C618202A8800} = {4D7FB963-000A-46DC-88B5-155B63E17624}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E4C134E9-2428-4B9D-A51E-7D2A5FD6F288}
