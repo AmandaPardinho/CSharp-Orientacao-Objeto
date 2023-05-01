@@ -106,15 +106,22 @@ using bytebank.Titular;
  * - Ao definir uma variável como "private", seu acesso poderá ser realizado através de métodos públicos;
  * - Esta definição torna o código mais seguro;
  */
-ContaCorrente conta3 = new ContaCorrente();
-conta3.SetSaldo(100);
-Console.WriteLine(conta3.GetSaldo());
-//Trabalhando com propriedades
-conta3.NumeroAgência = 18;
-Console.WriteLine(conta3.NumeroAgência);
+//ContaCorrente conta3 = new ContaCorrente();
+//conta3.SetSaldo(100);
+//Console.WriteLine(conta3.GetSaldo());
+////Trabalhando com propriedades
+//conta3.NumeroAgência = 18;
+//Console.WriteLine(conta3.NumeroAgência);
 
-//Propriedade autoimplementada
-conta3.Conta = "1011-H";
-Console.WriteLine(conta3.Conta);
+////Propriedade autoimplementada
+//conta3.Conta = "1011-H";
+//Console.WriteLine(conta3.Conta);
+
+ContaCorrente conta4 = new ContaCorrente();
+conta4.SetSaldo(500);
+conta4.NumeroAgencia = 18;
+conta4.Titular = new Cliente();
+
+Console.WriteLine($"Saldo: {(String.Format("{0:0.00}", conta4.GetSaldo()))}\nNúmero da agência: {conta4.NumeroAgencia}");
 
 Console.ReadKey();
