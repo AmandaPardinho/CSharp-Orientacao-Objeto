@@ -70,36 +70,51 @@ using bytebank.Titular;
 //Console.WriteLine(contaMaria.ExibirInfos());
 /////////////////////////////////////////////////////////////
 
-//Chamando a classe Cliente e a classe ContaCorrente
-Cliente cliente = new Cliente();
-cliente.nome = "André Silva";
-cliente.cpf = "12345678900";
-cliente.profissao = "Analista";
+////Chamando a classe Cliente e a classe ContaCorrente
+//Cliente cliente = new Cliente();
+//cliente.nome = "André Silva";
+//cliente.cpf = "12345678900";
+//cliente.profissao = "Analista";
 
-ContaCorrente conta = new ContaCorrente();
-conta.titular = cliente;
-conta.conta = "1010-X";
-conta.numeroAgencia = 15;
-conta.saldo = 100.0;
+//ContaCorrente conta = new ContaCorrente();
+//conta.titular = cliente;
+//conta.conta = "1010-X";
+//conta.numeroAgencia = 15;
+//conta.saldo = 100.0;
 
-Console.WriteLine(conta.ExibirInfos());
-//ou
-Console.WriteLine();
-Console.WriteLine($"Nome: {conta.titular.nome}");
-Console.WriteLine($"CPF: {conta.titular.cpf}");
-Console.WriteLine($"Profissão: {conta.titular.profissao}");
-//*********************\\
+//Console.WriteLine(conta.ExibirInfos());
+////ou
+//Console.WriteLine();
+//Console.WriteLine($"Nome: {conta.titular.nome}");
+//Console.WriteLine($"CPF: {conta.titular.cpf}");
+//Console.WriteLine($"Profissão: {conta.titular.profissao}");
+////*********************\\
 
-ContaCorrente conta2 = new ContaCorrente();
-conta2.titular = new Cliente();
-conta2.titular.nome = "José Souza";
-conta2.titular.profissao = "Tester";
-conta2.titular.cpf = "999888777-66";
-conta2.conta = "9999-X";
-conta2.numeroAgencia = 18;
-conta2.saldo = 500;
+//ContaCorrente conta2 = new ContaCorrente();
+//conta2.titular = new Cliente();
+//conta2.titular.nome = "José Souza";
+//conta2.titular.profissao = "Tester";
+//conta2.titular.cpf = "999888777-66";
+//conta2.conta = "9999-X";
+//conta2.numeroAgencia = 18;
+//conta2.saldo = 500;
 
-Console.WriteLine();
-Console.WriteLine(conta2.ExibirInfos());
+//Console.WriteLine();
+//Console.WriteLine(conta2.ExibirInfos());
+
+/* Manipulando uma variável "private"
+ * - Ao definir uma variável como "private", seu acesso poderá ser realizado através de métodos públicos;
+ * - Esta definição torna o código mais seguro;
+ */
+ContaCorrente conta3 = new ContaCorrente();
+conta3.SetSaldo(100);
+Console.WriteLine(conta3.GetSaldo());
+//Trabalhando com propriedades
+conta3.NumeroAgência = 18;
+Console.WriteLine(conta3.NumeroAgência);
+
+//Propriedade autoimplementada
+conta3.Conta = "1011-H";
+Console.WriteLine(conta3.Conta);
 
 Console.ReadKey();
