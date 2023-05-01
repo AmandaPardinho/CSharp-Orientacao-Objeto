@@ -15,7 +15,7 @@ namespace bytebank.Contas
         private int _numeroAgencia;
 
         //Definindo uma propriedade 
-        public int NumeroAgência
+        public int NumeroAgencia
         {
             get { return _numeroAgencia; }
             set
