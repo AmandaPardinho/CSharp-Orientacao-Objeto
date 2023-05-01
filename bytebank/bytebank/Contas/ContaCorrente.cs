@@ -1,14 +1,14 @@
 ﻿using bytebank.Titular;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace bytebank.Contas
 {
     public class ContaCorrente
     {
+        /*Método/propriedade/campo estático =>
+         * - Se relaciona com a classe e não com o objeto
+         */
+        public static int TotalContasCriadas { get; private set; }
+
         //Cada um dos campos recebe um valor inicial padrão
         //É possível alterar esse valor padrão do campo aqui mesmo na criação da classe => basta atribuir (=) um valor de acordo com o seu tipo
 
@@ -18,15 +18,15 @@ namespace bytebank.Contas
         public int NumeroAgencia
         {
             get { return _numeroAgencia; }
-            set
+            private set
             {
-                if(value > 0)
+                if (value > 0)
                 {
                     _numeroAgencia = value;
                 }
             }
         }
-        
+
         /* Criação de uma propriedade autoimplementada
          * - Útil quando não há necessidade de realizar validação
          * - Deixa o código mais enxuto
@@ -84,7 +84,7 @@ namespace bytebank.Contas
 
         public void SetSaldo(double valor)
         {
-            if(valor < 0)
+            if (valor < 0)
             {
                 return;
             }
@@ -98,7 +98,23 @@ namespace bytebank.Contas
         {
             return this.saldo;
         }
+
+
+        public ContaCorrente(int _numeroAgencia, string numeroConta)
+        {
+            this.NumeroAgencia = _numeroAgencia;
+            this.Conta = numeroConta;
+            TotalContasCriadas++;
+        }
+
+        public ContaCorrente(int _numeroAgencia, string numeroConta, Cliente _titular, double saldo)
+        {
+            this.NumeroAgencia = _numeroAgencia;
+            this.Conta = numeroConta;
+            this.Titular = _titular;
+            this.saldo = saldo;
+            TotalContasCriadas++;
+        }
+
     }
-
-
 }
