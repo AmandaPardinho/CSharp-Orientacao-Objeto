@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "DesafioLorena/1.0.0": {
+      "desafiolorena/1.0.0": {
         "runtime": {
-          "DesafioLorena.dll": {}
+          "desafiolorena.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "DesafioLorena/1.0.0": {
+    "desafiolorena/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
